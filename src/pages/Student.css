@@ -1,0 +1,57 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 15px;
+  /* background-color: ; */
+}
+
+.familiya_imya {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input_fullname {
+  /* border: none; */
+  height: 50px;
+}
+
+.sinflar {
+  padding: 10px 0;
+}
+
+.phonenumber_user {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.h1_maktab {
+  display: flex;
+  flex-direction: column;
+  padding: -10px;
+}
+
+.register {
+  /* margin-left: -360px; */
+}
+
+.register_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ochistetformu {
+  background-color: rgb(235, 228, 239);
+}
+
+.otpravit_back {
+  background-color: rgb(97, 30, 160);
+  padding: 20px 40px;
+  margin-left: -35px;
+}
+
+.btn-otpravit {
+  margin-top: -10px;
+}
