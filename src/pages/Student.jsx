@@ -66,6 +66,7 @@ const App = () => {
       form={studentForm}
       name="register"
       onFinish={onFinish}
+      className="form_responsive"
       style={{
         maxWidth: 830,
 
@@ -78,6 +79,7 @@ const App = () => {
           hoverable
           // title={<h1>RUSTAM BOSIMOV XUSUSIY MAKTABI </h1>}
           bordered={false}
+          className="card_responsive"
           style={{
             width: "830px",
           }}
@@ -98,6 +100,7 @@ const App = () => {
               marginLeft: "-24px",
               color: "rgb(187, 176, 176)",
             }}
+            className="card_responsive"
           />
           <Form.Item
             name="email"
@@ -118,15 +121,18 @@ const App = () => {
             ]}
           >
             <Input
+              className="input_header_responsive"
               style={{
                 width: "460px",
                 marginTop: "10px",
+                marginLeft: "-100px",
               }}
             />
           </Form.Item>
         </Card>
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
             padding: " 60px 36px 20px 36px",
@@ -136,6 +142,7 @@ const App = () => {
 
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
             height: 200,
@@ -160,6 +167,7 @@ const App = () => {
         </Card>
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
           }}
@@ -197,6 +205,7 @@ const App = () => {
 
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
           }}
@@ -212,6 +221,7 @@ const App = () => {
 
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
           }}
@@ -238,6 +248,7 @@ const App = () => {
         </Card>
         <Card
           hoverable
+          className="card_responsive"
           style={{
             width: 830,
           }}

@@ -55,3 +55,102 @@
 .btn-otpravit {
   margin-top: -10px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .form_responsive {
+    max-width: 730px !important;
+  }
+  .card_responsive {
+    max-width: 700px !important;
+  }
+}
+
+@media screen and (min-width: 635px) and (max-width: 768px) {
+  .form_responsive {
+    max-width: 630px !important;
+  }
+  .card_responsive {
+    max-width: 600px !important;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 635px) {
+  .form_responsive {
+    max-width: 530px !important;
+  }
+  .card_responsive {
+    max-width: 500px !important;
+  }
+  .input_header_responsive {
+    width: 300px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 500px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 433px) and (max-width: 500px) {
+  .form_responsive {
+    max-width: 430px !important;
+  }
+  .card_responsive {
+    max-width: 400px !important;
+  }
+  .input_header_responsive {
+    width: 300px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 400px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 363px) and (max-width: 433px) {
+  .form_responsive {
+    max-width: 330px !important;
+  }
+  .card_responsive {
+    max-width: 330px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 350px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 263px) and (max-width: 363px) {
+  .form_responsive {
+    max-width: 300px !important;
+  }
+  .card_responsive {
+    max-width: 300px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 250px !important;
+    gap: 20px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+}
