@@ -74,12 +74,33 @@
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 635px) {
+@media screen and (min-width: 529px) and (max-width: 635px) {
   .form_responsive {
     max-width: 530px !important;
   }
   .card_responsive {
     max-width: 500px !important;
+    /* margin-left: -3px !important; */
+  }
+  .input_header_responsive {
+    width: 300px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 500px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 529px) {
+  .form_responsive {
+    max-width: 530px !important;
+  }
+  .card_responsive {
+    max-width: 500px !important;
+    margin-left: -7px !important;
   }
   .input_header_responsive {
     width: 300px !important;
@@ -112,12 +133,39 @@
   }
 }
 
-@media screen and (min-width: 363px) and (max-width: 433px) {
+@media screen and (min-width: 418px) and (max-width: 433px) {
   .form_responsive {
-    max-width: 330px !important;
+    max-width: 370px !important;
+    margin-left: -10px !important;
   }
   .card_responsive {
-    max-width: 330px !important;
+    max-width: 400px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .rustambosimov_size {
+    font-size: 30px !important;
+  }
+  .rustambosimov_size1 {
+    font-size: larger !important;
+  }
+  .register_div {
+    max-width: 350px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 389px) and (max-width: 418px) {
+  .form_responsive {
+    max-width: 370px !important;
+    margin-left: -10px !important;
+  }
+  .card_responsive {
+    max-width: 370px !important;
   }
   .input_header_responsive {
     width: 200px !important;
@@ -131,12 +179,33 @@
   }
 }
 
-@media screen and (min-width: 263px) and (max-width: 363px) {
+@media screen and (min-width: 363px) and (max-width: 389px) {
   .form_responsive {
-    max-width: 300px !important;
+    max-width: 370px !important;
+    margin-left: -15px !important;
   }
   .card_responsive {
+    max-width: 355px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 350px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (min-width: 342px) and (max-width: 363px) {
+  .form_responsive {
     max-width: 300px !important;
+    margin-left: -10px !important;
+  }
+  .card_responsive {
+    max-width: 324px !important;
   }
   .input_header_responsive {
     width: 200px !important;
@@ -152,5 +221,338 @@
   }
   .btn-otpravit {
     margin-top: -6px !important;
+  }
+}
+
+@media screen and (min-width: 328px) and (max-width: 342px) {
+  .form_responsive {
+    max-width: 300px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 310px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 250px !important;
+    gap: 20px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+}
+
+@media screen and (min-width: 306px) and (max-width: 328px) {
+  .form_responsive {
+    max-width: 300px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 290px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .rustambosimov_size {
+    font-size: 25px !important;
+  }
+  .rustambosimov_size1 {
+    font-size: medium !important;
+  }
+  .register_div {
+    max-width: 250px !important;
+    gap: 20px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+}
+
+@media screen and (min-width: 298px) and (max-width: 306px) {
+  .form_responsive {
+    max-width: 300px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 280px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .rustambosimov_size {
+    font-size: 25px !important;
+  }
+  .rustambosimov_size1 {
+    font-size: medium !important;
+  }
+  .register_div {
+    max-width: 250px !important;
+    gap: 20px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+}
+
+@media screen and (min-width: 277px) and (max-width: 298px) {
+  .form_responsive {
+    max-width: 300px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 260px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 250px !important;
+    gap: 20px !important;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+}
+
+@media screen and (min-width: 268px) and (max-width: 277px) {
+  .cards {
+    padding-top: 0px !important;
+  }
+  .form_responsive {
+    max-width: 300px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 250px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 240px !important;
+    gap: 10px !important;
+    justify-content: center;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+  .ochistetformu {
+    /* padding: 10px 15px !important; */
+    width: 139px !important;
+    height: 32px;
+  }
+  .ochitit_harf {
+    margin-top: -1px;
+    width: 22px;
+    margin-left: -3px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 247px) and (max-width: 268px) {
+  .cards {
+    padding-top: 0px !important;
+  }
+  .form_responsive {
+    max-width: 230px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 230px !important;
+  }
+  .input_header_responsive {
+    width: 200px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 240px !important;
+    gap: 10px !important;
+    justify-content: center;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+  .btn-otpravit {
+    margin-top: -6px !important;
+  }
+  .ochistetformu {
+    /* padding: 10px 15px !important; */
+    width: 109px !important;
+    height: 32px;
+  }
+  .ochitit_harf {
+    margin-top: -1px;
+    /* width: 22px; */
+    margin-left: -3px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 218px) and (max-width: 247px) {
+  .cards {
+    padding-top: 0px !important;
+  }
+  .form_responsive {
+    max-width: 200px !important;
+    margin-left: -11px !important;
+  }
+  .card_responsive {
+    max-width: 200px !important;
+  }
+  .input_header_responsive {
+    width: 140px !important;
+    margin-left: 0 !important;
+  }
+  .register_div {
+    max-width: 200px !important;
+    gap: 4px !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 15px !important;
+    font-size: smaller;
+  }
+  .btn-otpravit {
+    margin-top: -4px !important;
+  }
+  .ochistetformu {
+    /* padding: 10px 15px !important; */
+    width: 109px !important;
+    height: 32px;
+  }
+  .ochitit_harf {
+    margin-top: -1px;
+    /* width: 22px; */
+    margin-left: -3px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 218px) {
+  .cards {
+    padding-top: 0px !important;
+  }
+  .form_responsive {
+    max-width: 160px !important;
+    margin-left: -16px !important;
+  }
+  .card_responsive {
+    max-width: 190px !important;
+  }
+  .input_header_responsive {
+    width: 140px !important;
+    margin-left: 0 !important;
+  }
+  .rustambosimov_size {
+    font-size: 20px !important;
+  }
+  .rustambosimov_size1 {
+    font-size: 15px !important;
+  }
+  .register_div {
+    max-width: 200px !important;
+    gap: 4px !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 15px !important;
+    font-size: smaller;
+  }
+  .btn-otpravit {
+    margin-top: -4px !important;
+  }
+  .ochistetformu {
+    /* padding: 10px 15px !important; */
+    width: 109px !important;
+    height: 32px;
+  }
+  .ochitit_harf {
+    margin-top: -1px;
+    /* width: 22px; */
+    margin-left: -3px;
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 200px) {
+  .cards {
+    padding-top: 0px !important;
+  }
+  .form_responsive {
+    max-width: 170px !important;
+    margin-left: -16px !important;
+  }
+  .card_responsive {
+    max-width: 170px !important;
+  }
+  .input_header_responsive {
+    width: 140px !important;
+    margin-left: 0 !important;
+  }
+  .rustambosimov_size {
+    font-size: 20px !important;
+  }
+  .rustambosimov_size1 {
+    font-size: 15px !important;
+  }
+  .register_div {
+    max-width: 200px !important;
+    gap: 4px !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .otpravit_back {
+    margin: 0 !important;
+    padding: 10px 15px !important;
+    font-size: smaller;
+  }
+  .btn-otpravit {
+    margin-top: -4px !important;
+  }
+  .ochistetformu {
+    /* padding: 10px 15px !important; */
+    width: 109px !important;
+    height: 32px;
+  }
+  .ochitit_harf {
+    margin-top: -1px;
+    /* width: 22px; */
+    margin-left: -3px;
+    font-size: smaller;
   }
 }

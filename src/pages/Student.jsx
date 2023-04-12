@@ -84,8 +84,10 @@ const App = () => {
             width: "830px",
           }}
         >
-          <h1>RUSTAM BOSIMOV XUSUSIY MAKTABI </h1>
-          <h3>
+          <h1 className="rustambosimov_size">
+            RUSTAM BOSIMOV XUSUSIY MAKTABI{" "}
+          </h1>
+          <h3 className="rustambosimov_size1">
             30-APREL KUNI MATEMATIKA FANIDAN RUSTAM BOSIMOV OLIMPIADASI bo'lib
             o'tadi{" "}
           </h3>
@@ -278,7 +280,7 @@ const App = () => {
             </Button>
           </Form.Item>
           <Button className="ochistetformu" htmlType="button" onClick={onReset}>
-            Очистить форму
+            <div className="ochitit_harf">Очистить форму</div>
           </Button>
         </div>
       </div>
