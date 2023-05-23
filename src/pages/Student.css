@@ -44,6 +44,11 @@
 
 .ochistetformu {
   background-color: rgb(235, 228, 239);
+  padding: 20px 40px !important;
+}
+
+.ochitit_harf {
+  margin-top: -10px;
 }
 
 .otpravit_back {
@@ -62,6 +67,9 @@
   }
   .card_responsive {
     max-width: 700px !important;
+  }
+  .register_div {
+    width: 700px;
   }
 }
 

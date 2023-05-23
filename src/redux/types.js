@@ -1,3 +1,3 @@
-export const ADDTEACHER = "addTeacher";
-export const EDITTEACHER = "editTeacher";
-export const DELETETEACHER = "deleteTeacher";
+export const ADDSTUDENT = "addStudent";
+export const EDITSTUDENT = "editStudent";
+export const DELETESTUDENT = "deleteStudent";

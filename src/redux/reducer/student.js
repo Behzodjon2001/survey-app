@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import { STUDENTS } from "../../const";
+import { DELETESTUDENT, EDITSTUDENT } from "../types";
 const initialState = JSON.parse(localStorage.getItem(STUDENTS)) || [];
 
 export const studentReducer = (state = initialState, action) => {
@@ -8,10 +9,19 @@ export const studentReducer = (state = initialState, action) => {
     case "addStudent":
       newState.push({ ...action.data, id: uuidv4() });
       break;
-    case "editStudent":
+    case EDITSTUDENT:
+      newState = newState.map((t) => {
+        if (t.id === action.data.id) {
+          return { ...t, ...action.data };
+        } else {
+          return t;
+        }
+      });
+      break;
+    case DELETESTUDENT:
+      newState = newState.filter((t) => t.id !== action.data);
       break;
     default:
-      break;
   }
   localStorage.setItem(STUDENTS, JSON.stringify(newState));
   return newState;
